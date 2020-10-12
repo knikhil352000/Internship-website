@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d8edfc4ec2.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+    <title>Internship</title>
+</head>
+
+<body>
+    <section class="navigation-top ">
+        <div class="nav-with-logo">
+
+            <div class="sidebar">
+                <div class="p"><img class="mb-4" src="./images/g.svg" alt=""></div>
+                <a class="active" href="#home">
+                    <div class="side-nav-icon text-center">
+                        <img class="" src="./images/folders.svg" alt="">
+                    </div>
+                    <div class="side-nav-icon text-center">
+                        <img class="" src="./images/selected.svg" alt="">
+                    </div>
+                    <div class="side-nav-icon text-center">
+                        <img class="" src="./images/mail.svg" alt="">
+                    </div>
+                    <div class="side-nav-icon text-center">
+                        <img class="" src="./images/files.svg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="Navbar">
+                <div class="side-nav-icon setting">
+                    <img src="./images/settings.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent main-navbar">
+
+            <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="nav-link" href="#">
+                <form class="ml-3">
+                    <img src="images/search.svg" alt="">
+                    <input type="search" placeholder="Search">
+                </form>
+                <span class="sr-only">(current)</span>
+            </a>
+            <div class="side-navbar collapse navbar-collapse px-3" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 fl d-flex justify-content-end">
+                    <!-- <li class="nav-item active">
+                        
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">
+                            <div class="user-name mt-1 float-left">
+                                <h6>Cody Simmons</h6>
+                                <p>Lecturer</p>
+                            </div>
+                            <div class="user-icon mt-2 d-inline">
+                                <img src="./images/Avatar.svg" alt="">
+                            </div>
+                            <div class="m-auto p-3 d-inline">
+                                <img src="./images/Vector.svg" alt="">
+                            </div>
+                            <div class=" line px-3 d-inline">
+                                <img src="./images/Line 3.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon my-auto p-3">
+                                <img src="images/notifications.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <div class="nav-link-icon my-auto p-3">
+                                <img src="images/logout.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </section>
+    <!-- ***********************Top Navigation Ends******************************************** -->
+    <!-- ***********************Side Navigation Starts******************************************** -->
+    <section style="background: #E5E5E5;">
+        <div class="main-division">
+            <div class="dashboard d-flex justify-content-between ">
+                <div class="dashboard-text pt-3">
+                    <h6>Dashboard</h6>
+                    <p>Subject Course</p>
+                </div>
+                <div class="dashboard-button mt-3">
+                    <button class="button-1 mx-3 "><i class="fas fa-pencil-alt"></i>Manage Dashboard
+                    </button>
+                    <button class="button-2 mx-3"><i class="fas fa-plus"></i>Create new dashboard
+                    </button>
+                </div>
+            </div>
+            <div class="average-data">
+                <div class="row">
+                    <div class="student-card col-lg-3 col-md-6 col-12">
+                        <div class="marks-image">
+                            <div class="icon" style="background: rgba(113, 59, 219, 0.05);">
+                                <img class="img" src="./images/person.svg" alt="">
+                            </div>
+                            <div class="student-text mt-1 ml-2">
+                                <h3>62</h3>
+                                <p>Students</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="student-card col-lg-3 col-md-6 col-12">
+                        <div class="marks-image">
+                            <div class="icon" style="background: rgba(51, 214, 159, 0.07);">
+                                <img class="img" src="./images/mark.svg" alt="">
+                            </div>
+                            <div class="student-text mt-1 ml-2">
+                                <h3>6.8</h3>
+                                <p>Average mark</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="student-card col-lg-3 col-md-6 col-12">
+                        <div class="marks-image">
+                            <div class="icon" style="background: rgba(255, 76, 97, 0.05);">
+                                <img class="img" src="./images/underperform.svg" alt="">
+                            </div>
+                            <div class="student-text mt-1 ml-2">
+                                <h3>9 <span>(14%)</span></h3>
+                                <p>Underperforming Students</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="student-card col-lg-3 col-md-6 col-12">
+                        <div class="marks-image">
+                            <div class="icon" style="background: rgba(76, 184, 255, 0.07);">
+                                <img class="img " src="./images/book.svg" alt="">
+                            </div>
+                            <div class="student-text mt-1 ml-2">
+                                <h3>83%</h3>
+                                <p>Finished homework</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="student-card col-lg-6 col-12 px-0">
+                        <div class="student-change-month">
+                            <div
+                                class="student-change-month-text d-flex justify-content-between align-self-center px-3">
+                                <h6>Student number change per month</h6>
+                                <ul>
+                                    <li><img src="./images/Ellipse 24.svg" alt="" style="height:8px;width:8px;"> Applied
+                                    </li>
+                                    <li><img src="./images/Ellipse 25.svg" alt="" style="height:8px;width:8px"> Left
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="progress-Bar">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                        role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                                        style="width:75%">
+                                        75%
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                        role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                                        style="width:52%">
+                                        52%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-class mt-3">
+                            <div class="student-card student-change-month-card-1 col-lg-6 col-md-6 col-12 ">
+                                <div class="marks-image">
+                                    <div class="icon" style="background: rgba(255, 184, 0, 0.07);">
+                                        <img class="img" src="./images/cup.svg" alt="">
+                                    </div>
+                                    <div class="student-text mt-1 ml-2">
+                                        <h3>25</h3>
+                                        <p>Lection left</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="student-card student-change-month-card-2 col-lg-6 col-md-6 col-12 ">
+                                <div class="marks-image">
+                                    <div class="icon " style="background: rgba(76, 184, 255, 0.07);">
+                                        <img class="img" src="./images/clock.svg" alt="">
+                                    </div>
+                                    <div class="student-text mt-1 ml-2">
+                                        <h3>135</h3>
+                                        <p>Hours spent on lections</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 px-0">
+                        <div class="student-stats fluid-container">
+                            <div class="row">
+                                <div class="student-list-container col-lg-6 col-md-6 col-12">
+                                    <div class="student-list px-2">
+                                        <div class="student-list-text d-flex justify-content-between align-self-center">
+                                            <div class="mt-3 ml-2">
+                                                <h6>Students by average marks</h6>
+                                            </div>
+                                            <div class="mt-3">
+                                                <p>Descending<img class="px-1" src="./images/Vector.svg" alt=""></p>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon ">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="student-name">
+                                            <div class="s-1 d-flex justify-content-between align-self-center py-2 px-2">
+                                                <div class="name-icon">
+                                                    <img src="./images/Avatar.svg" alt="">
+                                                </div>
+                                                <div class="name my-2">
+                                                    <p>Annete Watson</p>
+                                                </div>
+                                                <div class="rating my-2">
+                                                    <strong>9.3</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="student-list-container-1 col-lg-6 col-md-6 col-12">
+                                    <div class="student-type fluid-container">
+                                        <div class="student-type-text py-3 px-3">
+                                            <h6>Student by type of studying</h6>
+                                        </div>
+                                        <div class="progress-Bar">
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:32%">
+                                                    32%
+                                                </div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:32%">
+                                                    32%
+                                                </div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:24%">
+                                                    24%
+                                                </div>
+                                            </div>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                                                    role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                                    aria-valuemax="100" style="width:12%">
+                                                    12%
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="statistics mt-5 px-5">
+                                            <div class="d-flex justify-content-between align-self-center">
+                                                <p><img src="./images/Ellipse 27.svg" alt=""> Group of 20 students</p>
+                                                <h6>20 <span>(32%)</span></h6>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-self-center">
+                                                <p><img src="./images/Ellipse 26.svg" alt=""> Group of 20 students</p>
+                                                <h6>20 <span>(32%)</span></h6>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-self-center">
+                                                <p><img src="./images/Ellipse 25.svg" alt=""> Group of 20 students</p>
+                                                <h6>15 <span>(24%)</span></h6>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-self-center">
+                                                <p><img src="./images/Ellipse 24.svg" alt=""> Group of 20 students</p>
+                                                <h6>7 <span>(12%)</span></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

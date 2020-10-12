@@ -1,0 +1,384 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Khula', sans-serif !important;
+    height: 100%; 
+}
+i{
+    padding: 0.5rem;
+}
+p{
+    font-size: 0.85rem;
+    font-weight: 300 !important;
+}
+h6{
+    font-weight: bold !important;
+}
+h3{
+    font-weight: bolder !important;
+}
+input{
+    text-decoration: none;
+    border: none;
+    width: 6rem;
+    background: transparent;
+    padding:0.8rem;
+}
+
+button:nth-child(1){
+    background: transparent;
+    border: 1px solid #DADCE6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #00B2FF;
+    padding:0.3rem 0.3rem;
+    font-weight: bolder;
+}
+button:nth-child(2){
+    background: #00B2FF;
+    border: 1px solid #DADCE6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding:0.3rem 0.3rem;
+    font-weight: bolder;
+}
+
+.dashboard-text h6{
+    font-size: 1.5rem;
+    font-weight: bold !important;
+}
+.marks-image:hover,.student-change-month:hover{
+    transition: 0.4s ease;
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.side-nav-icon:hover{
+    transition: 0.4s ease;
+    transform: scale(1.0.8);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+/***********************Top Navigation Starts********************************************/
+.user-name{
+    height: 3rem;
+    padding:.375rem .75rem;
+    line-height: 0.75rem;
+    text-align: right;
+    
+}
+.side-navbar ul{
+    width: 100%;
+    margin:0 auto;
+}
+.navbar{
+    padding: 0 !important;
+}
+.nav-with-logo{
+    float: left;
+    
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    color: #fff;
+    
+}
+.nav-with-logo .p{
+    margin-bottom: 0;
+    background: url(../images/Rectangle\ 45.svg);
+    height: 5rem;
+    position: relative;
+    
+    font-size: 5rem;
+    font-weight: bold !important ;
+}
+/************************Top Navigation Ends*********************************************/
+/****************************Side Navigation*******************************************/
+.sidebar {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 5rem;
+    background: #373B53;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  .sidebar p{
+      background: url(../images/Rectangle\ 45.svg);
+  }
+  .Navbar {
+    overflow: hidden;
+    background: #373B53;
+    position: fixed;
+    bottom: 0;
+  }
+  .Navbar .setting{
+    float: left;
+    color: #f2f2f2;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+/*****************************Side Navigatiomn end*****************************************/
+/*******************************DashBoard Start*******************************************/
+.button-1,.button-2{
+    width: 15rem;
+    padding-top: 0.8rem;
+    border-style: none;
+}
+.button-icon{
+    position: relative;
+    left:1.4rem;
+    bottom: 0.2rem;
+}
+.student-text span{
+    color: grey;
+    font-size: 1.2rem;
+}
+.main-division{
+    margin-left: 7rem;
+    margin-right: 2%;
+    background: #E5E5E5;
+}
+.icon{
+    float: left;
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+}
+.marks-image{
+    background: #fff;
+    height: 6rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+}
+.student-card{
+    padding:1rem !important;
+}
+.img{
+    margin-top: 1.09rem;
+}
+.student-text{
+   padding-left: 5rem;
+}
+/**********************************Dashboard End********************************************/
+/**********************************Student-Change********************************************/
+.student-change-month-text {
+   padding-top: 1rem;
+   border-radius: 10px;
+   background: #fff;
+}
+.student-change-month-text li{
+    display: inline;
+    padding-left: 1rem;
+}
+
+.progressBar{
+    text-align: center;
+    padding: 3% 3% !important;
+}
+.student-change-month{
+    background: #fff;
+    height: 25rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-radius:10px;
+}
+.progress{
+    margin:3rem 3rem 0 3rem;
+}
+
+
+/**********************************Student-change end********************************************/
+
+/*************************************Average-mark*******************************************/
+
+
+/*************************************Average-mark-end*******************************************/
+/************************************Student-List*************************************************/
+
+.student-list-container{
+    margin-top: 1rem !important;
+    padding-right: 1.2rem !important;
+    position: relative;
+    left: 0.94rem;
+    height: 25rem !important;
+
+}
+.student-list{
+    background: #fff;
+    height: 33rem;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.name{
+    margin-right: 40%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #999595; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #999595; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999595; 
+  }
+
+/***************************************Student-list-ends*****************************************/
+/***************************************Student-type-starts*****************************************/
+.student-list-container-1{
+    margin-top: 1rem;
+    padding-left: 1.4rem !important;
+}
+.student-type{
+    background: #fff;
+    height: 33rem;
+    border-radius: 10px;
+}
+.progress-Bar-1{
+    margin:0 0 !important;
+} 
+.row-class{
+    margin-right: 1rem !important;
+}
+.student-change-month-card-2{
+    padding-right: 0 !important;
+}
+
+/***************************************Student-list-ends*****************************************/
+/***************************************Media Queries***********************************************/
+@media (max-width:1370px){
+    .progress{
+        margin-top: 2rem !important ;
+    }
+    .name{
+        margin-left: 2rem;
+        
+    }
+    .name-icon{
+        margin-top: 1rem;
+    }
+    .row-class{
+        margin-right: 1rem !important;
+        /* padding-right: rem !important; */
+    }
+}
+@media (max-width: 1180px){
+    .rating{
+        position: relative;
+        right: 2rem;
+    }
+    .student-change-month-text li{
+        display: block;
+    }
+    .row-class{
+        margin-right: 1rem !important;
+    }
+    .main-division{
+        margin-right: 1.8rem;
+        
+    }
+}
+@media (max-width:992px){
+    .main-navbar{
+        padding: .5rem 0 .40rem   0 !important;
+    }
+    .student-change-month{
+        margin:0 auto;
+    }
+    .row-class{
+        padding:auto 0;
+        margin:auto 0 !important;
+    }
+    .student-list-container{
+        padding-left: 0 !important;
+        padding-right: 2rem !important;
+    }
+    .student-list-container-1{
+        padding-left: 0.6rem !important;
+    }
+    .student-change-month-card-1{
+        padding-left: 0 !important;
+    }
+    .main-division{
+        margin-right: 1.8rem;
+        padding-bottom: 3rem;
+    }
+
+    .line{
+        visibility: hidden;
+    }
+    .nav-link-icon{
+        margin-left: 4rem;
+    }
+}
+@media (max-width:808px){
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media(max-width: 771px){
+    .student-change-month-card-2,.student-change-month-card-1{
+        
+        padding:1rem 0 1rem 0!important;
+    }
+    .student-type{
+        margin-top: 10rem;;
+    }
+}
+@media (max-width:688px){
+    .button-1,.button-2{
+        width: 85%;
+        margin:1rem 1rem;
+    }
+}
+@media (max-width:547px){
+    
+    .student-change-month-text{
+        display:flex;
+        flex-direction: column;
+        text-align:left;
+    }
+    span{
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:428px){
+    .button-icon{
+       display: flex;
+       flex-direction: column;
+    }
+    
+}
+
+/***************************************Media Queries Ends******************************************/
